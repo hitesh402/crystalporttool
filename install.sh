@@ -16,7 +16,7 @@ apt install -y sshpass nano curl
 echo ""
 echo "⬇️ Downloading Port Tool..."
 
-curl -sSL https://raw.githubusercontent.com/YOURUSERNAME/YOURREPO/main/port \
+curl -sSL https://raw.githubusercontent.com/hitesh402/crystalporttool/main/port.sh \
      -o /usr/local/bin/port
 
 echo ""
@@ -25,5 +25,5 @@ chmod +x /usr/local/bin/port
 
 echo ""
 echo "🎉 Installation complete!"
-echo "Run this command to start:"
-echo "  port help"
+echo "Run:  port help"
+
